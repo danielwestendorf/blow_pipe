@@ -8,7 +8,7 @@ module BlowPipe
     
     @@mount_at = '/blowpipe'
     @@strategy = :transaction
-    @orm       = :active_record
+    @@orm       = :active_record
   end
   
   mattr_accessor :configuration
